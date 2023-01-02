@@ -5,6 +5,7 @@ body{
     background-repeat: no-repeat;
     font-family: 'Permanent Marker', cursive;
     letter-spacing: 2px;
+    height: 100vh;
 }
 
 .top-container{
