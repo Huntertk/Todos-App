@@ -1,0 +1,53 @@
+body{
+    background-image: url('./background.jpg');
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 2px;
+}
+
+.top-container{
+    font-size: 1.5rem;
+    text-decoration: underline;
+    text-shadow: 1px 1px 5px #000;
+}
+.todos-container{
+    background-color: #FFCAC8;
+    width: 350px;
+    margin: 10px auto;
+    padding: 20px 60px;
+    border-radius: 8px;
+}
+h1{
+    margin-bottom: 0;
+}
+#input-el{
+    text-align: center;
+    padding: 20px 15px;
+    width: 250px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.btn{
+    cursor: pointer;
+    margin: 20px auto;
+    display: block;
+    padding: 10px 10px;
+    width: 120px;
+    background-color: #FF9E9E;
+    font-family:'Permanent Marker', cursive;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    border: 3px solid #FF9E9E;
+}
+.btn:active{
+    box-shadow: 4px 4px 8px #000;
+}
+#ul-el li{
+    font-size: 1.8rem;
+    list-style: none;
+    margin: 1px auto;
+}
