@@ -48,6 +48,7 @@ h1{
     box-shadow: 4px 4px 8px #000;
 }
 #ul-el li{
+    padding: 20px;
     font-size: 1.8rem;
     list-style: none;
     margin: 1px auto;

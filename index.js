@@ -11,7 +11,7 @@ if(localStorageItem){
 }
 
 addBtn.addEventListener("click", function(){
-    item.push(inputEl.value)
+    item.push(inputEl.value)    
     inputEl.value =  ""
     console.log(item)
     localStorage.setItem("item", JSON.stringify(item))
