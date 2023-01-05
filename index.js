@@ -7,6 +7,7 @@ const ulEl = document.getElementById("ul-el")
 let localStorageItem = JSON.parse(localStorage.getItem("item"))
 if(localStorageItem){
     item = localStorageItem
+    console.log(localStorageItem)
     render(item)
 }
 
